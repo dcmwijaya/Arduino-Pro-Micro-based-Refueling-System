@@ -1,2 +1,2 @@
-# Pemantauan-suhu-dan-level-air-berbasis-IoT
-Pemantauan suhu dan level air berbasis IoT | Solo Project
+# IoT-based-Water-Level-and-Temperature-Monitoring
+IoT-based Water Level and Temperature Monitoring | Solo Project
