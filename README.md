@@ -1,4 +1,3 @@
-# IoT-based-Water-Level-and-Temperature-Monitoring
-IoT-based Water Level and Temperature Monitoring | Solo Project
-
-<strong>Coming Soon...</strong>
+# Arduino-Pro-Micro-based-Refueling-System
+<strong>Solo Project: Arduino Pro Micro-based Refueling System</strong><br><br>
+Coming Soon...
