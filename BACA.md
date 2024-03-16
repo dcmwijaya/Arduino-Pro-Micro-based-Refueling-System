@@ -6,3 +6,158 @@
 # Arduino-Pro-Micro-based-Refueling-System
 <strong>Proyek Tunggal: Sistem Pengisian Bahan Bakar Berbasis Arduino Pro Micro</strong><br><br>
 Segera Hadir...
+
+<br><br>
+
+## Kebutuhan Proyek
+| Bagian | Deskripsi |
+| --- | --- |
+| Papan Pengembangan | Arduino Pro Micro Leonardo ATMEGA32U4 |
+| Editor Kode | Arduino IDE |
+| Driver | USB-Serial CH340 |
+| Bahasa Pemrograman | C/C++ |
+| Pustaka Arduino | • LiquidCrystal_I2C<br>• Keypad |
+| Aktuator | Submersible pump (x2) |
+| Sensor | SEN-0009: Ketinggian Air (x1) |
+| Layar | LCD I2C (x1) |
+| Komponen Lainnya | • Kabel Mikro USB - USB tipe A (x1)<br>• Kabel jumper (1 set)<br>• Breadboard (x1)<br>• Adaptor DC 5V (x1)<br>• Tombol membran keypad 4x4 |
+
+<br><br>
+
+## Unduh & Instal
+1. Arduino IDE
+
+   <table><tr><td width="810">
+
+   ```
+   https://www.arduino.cc/en/software
+   ```
+
+   </td></tr></table><br>
+
+2. USB-Serial CH340
+
+   <table><tr><td width="810">
+
+   ```
+   https://bit.ly/CH340_Driver
+   ```
+
+   </td></tr></table>
+   
+<br><br>
+
+## Rancangan Proyek
+<table>
+<tr>
+<th width="420">Diagram Blok</th>
+<th width="420">Diagram Ilustrasi</th>
+</tr>
+<tr>
+<td><img src="" alt="Block-Diagram"></td>
+<td><img src="" alt="Pictorial-Diagram"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840">Pengkabelan</th>
+</tr>
+<tr>
+<td><img width="840" src="" alt="Wiring"></td>
+</tr>
+</table>
+
+<br><br>
+
+## Pengaturan Arduino IDE
+1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek dengan cara klik ``` File ``` -> ``` Open ``` :
+
+   <table><tr><td width="810">
+   
+      ``` Refueling_System.ino ```
+
+   </td></tr></table><br>
+   
+2. ``` Pengaturan Board ``` di Arduino IDE
+
+   <table>
+      <tr><th width="810">
+
+      Cara mengatur board ``` Arduino Pro Micro ```
+            
+      </th></tr>
+      <tr><td>
+         
+      Klik ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```
+
+      </td></tr>
+   </table><br>
+   
+3. ``` Ubah Kecepatan Papan ``` di Arduino IDE
+
+   <table><tr><td width="810">
+         
+      Klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 9600 ```
+
+   </td></tr></table><br>
+   
+4. ``` Instal Pustaka ``` di Arduino IDE
+
+   <table><tr><td width="810">
+     
+      Unduh semua file zip pustaka. Lalu tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+
+   </td></tr></table><br>
+
+5. ``` Pengaturan Port ``` di Arduino IDE
+
+   <table><tr><td width="810">
+
+      Klik ``` Port ``` -> pilih sesuai dengan port perangkat anda ``` (anda dapat melihatnya di Device Manager) ```
+         
+   </td></tr></table><br>
+
+6. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
+
+7. Jika tidak ada kesalahan dalam kode program, silakan klik: ``` Upload ```.<br><br>
+
+8. Jika masih ada masalah saat unggah program, maka coba periksa pada bagian ``` driver ``` / ``` port ``` / ``` yang lainnya ```.
+
+<br><br>
+
+## Memulai
+1. Unduh dan ekstrak repositori ini.<br><br>
+
+2. Pastikan anda memiliki komponen elektronik yang diperlukan.<br><br>
+   
+3. Pastikan komponen anda telah dirancang sesuai dengan diagram.<br><br>
+   
+4. Konfigurasikan perangkat anda menurut pengaturan di atas.<br><br>
+    
+5. Selamat menikmati [Selesai].
+
+<br><br>
+
+## Sorotan
+<img src="" alt="refueling-system">
+
+<br><br>
+
+## Apresiasi
+Jika anda merasa karya ini bermanfaat, dukunglah karya ini sebagai bentuk apresiasi kepada penulis dengan cara mengeklik tombol ``` ⭐Bintang ```.
+
+<br><br>
+
+## Penafian
+Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa pustaka, kerangka kerja, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
+
+<br><br>
+
+## LISENSI
+LISENSI MIT - Hak Cipta © 2024 - Devan C. M. Wijaya, S.Kom
+
+Dengan ini diberikan izin tanpa biaya kepada siapa pun yang mendapatkan salinan perangkat lunak ini dan file dokumentasi terkait perangkat lunak untuk menggunakannya tanpa batasan, termasuk namun tidak terbatas pada hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, mempublikasikan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak ini, dan mengizinkan orang yang menerima Perangkat Lunak ini untuk dilengkapi dengan persyaratan berikut:
+
+Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus menyertai semua salinan atau bagian penting dari Perangkat Lunak.
+
+DALAM HAL APAPUN, PENULIS ATAU PEMEGANG HAK CIPTA DI SINI TETAP MEMILIKI HAK KEPEMILIKAN PENUH. PERANGKAT LUNAK INI DISEDIAKAN SEBAGAIMANA ADANYA, TANPA JAMINAN APAPUN, BAIK TERSURAT MAUPUN TERSIRAT, OLEH KARENA ITU JIKA TERJADI KERUSAKAN, KEHILANGAN, ATAU LAINNYA YANG TIMBUL DARI PENGGUNAAN ATAU URUSAN LAIN DALAM PERANGKAT LUNAK INI, PENULIS ATAU PEMEGANG HAK CIPTA TIDAK BERTANGGUNG JAWAB, KARENA PENGGUNAAN PERANGKAT LUNAK INI TIDAK DIPAKSAKAN SAMA SEKALI, SEHINGGA RISIKO ADALAH MILIK ANDA SENDIRI.
