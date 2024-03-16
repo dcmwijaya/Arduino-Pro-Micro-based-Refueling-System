@@ -20,7 +20,7 @@ Segera Hadir...
 | Aktuator | Submersible pump (x2) |
 | Sensor | SEN-0009: Ketinggian Air (x1) |
 | Layar | LCD I2C (x1) |
-| Komponen Lainnya | • Kabel Mikro USB - USB tipe A (x1)<br>• Kabel jumper (1 set)<br>• Breadboard (x1)<br>• Adaptor DC 5V (x1)<br>• Tombol membran keypad 4x4 (x1)<br>• Tombol tekan 12 x 12 mm (x1) |
+| Komponen Lainnya | • Kabel Mikro USB - USB tipe A (x1)<br>• Kabel jumper (1 set)<br>• Breadboard (x1)<br>• Adaptor DC 5V (x1)<br>• Tombol membran keypad 4x4 (x1)<br>• Tombol tekan 12 x 12 mm (x1)<br>• Galon air mini (x2) |
 
 <br><br>
 
