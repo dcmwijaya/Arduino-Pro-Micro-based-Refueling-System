@@ -6,3 +6,158 @@
 # Arduino-Pro-Micro-based-Refueling-System
 <strong>Solo Project: Arduino Pro Micro-based Refueling System</strong><br><br>
 Coming Soon...
+
+<br><br>
+
+## Project Requirements
+| Part | Description |
+| --- | --- |
+| Development Board | Arduino Pro Micro Leonardo ATMEGA32U4 |
+| Code Editor | Arduino IDE |
+| Driver | USB-Serial CH340 |
+| Programming Language | C/C++ |
+| Arduino Library | • LiquidCrystal_I2C<br>• Keypad |
+| Actuators | Submersible pump (x2) |
+| Sensor | SEN-0009: Water Level (x1) |
+| Display | LCD I2C (x1) |
+| Other Components | • Micro USB cable - USB type A (x1)<br>• Jumper cable (1 set)<br>• Breadboard (x1)<br>• Adaptor DC 5V (x1)<br>• 4x4 keypad membrane button |
+
+<br><br>
+
+## Download & Install
+1. Arduino IDE
+
+   <table><tr><td width="810">
+         
+   ```
+   https://www.arduino.cc/en/software
+   ```
+
+   </td></tr></table><br>
+   
+2. USB-Serial CH340
+
+   <table><tr><td width="810">
+   
+   ```
+   https://bit.ly/CH340_Driver
+   ```
+   
+   </td></tr></table>
+   
+<br><br>
+
+## Project Designs
+<table>
+<tr>
+<th width="420">Block Diagram</th>
+<th width="420">Pictorial Diagram</th>
+</tr>
+<tr>
+<td><img src="" alt="Block-Diagram"></td>
+<td><img src="" alt="Pictorial-Diagram"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840">Wiring</th>
+</tr>
+<tr>
+<td><img src="" alt="Wiring"></td>
+</tr>
+</table>
+
+<br><br>
+
+## Arduino IDE Setup
+1. Open the ``` Arduino IDE ``` first, then open the project by clicking ``` File ``` -> ``` Open ``` :
+
+   <table><tr><td width="810">
+   
+      ``` Refueling_System.ino ```
+
+   </td></tr></table><br>
+   
+2. ``` Board Setup ``` in Arduino IDE
+
+   <table>
+      <tr><th width="810">
+
+      How to setup the ``` Arduino Pro Micro ``` board
+            
+      </th></tr>
+      <tr><td>
+         
+      Click ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```
+
+      </td></tr>
+   </table><br>
+   
+3. ``` Change the Board Speed ``` in Arduino IDE
+
+   <table><tr><td width="810">
+         
+      Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 9600 ```
+
+   </td></tr></table><br>
+   
+4. ``` Install Library ``` in Arduino IDE
+
+   <table><tr><td width="810">
+         
+      Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+
+   </td></tr></table><br>
+
+5. ``` Port Setup ``` in Arduino IDE
+
+   <table><tr><td width="810">
+         
+      Click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```
+
+   </td></tr></table><br>
+
+6. Before uploading the program please click: ``` Verify ```.<br><br>
+
+7. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
+
+8. If there is still a problem when uploading the program, then try checking the ``` driver ``` / ``` port ``` / ``` others ``` section.
+
+<br><br>
+
+## Get Started
+1. Download and extract this repository.<br><br>
+   
+2. Make sure you have the necessary electronic components.<br><br>
+   
+3. Make sure your components are designed according to the diagram.<br><br>
+   
+4. Configure your device according to the settings above.<br><br>
+
+5. Please enjoy [Done].
+
+<br><br>
+
+## Highlights
+<img src="" alt="refueling-system">
+
+<br><br>
+
+## Appreciation
+If you find this work useful, please support this work as a token of appreciation to the author by clicking the ``` ⭐Star ``` button.
+
+<br><br>
+
+## Disclaimer
+This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
+
+<br><br>
+
+## LICENSE
+MIT License - Copyright © 2024 - Devan C. M. Wijaya, S.Kom
+
+Permission is hereby granted without charge to any person obtaining a copy of this software and the software-related documentation files to deal in them without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons receiving the Software to be furnished therewith on the following terms:
+
+The above copyright notice and this permission notice must accompany all copies or substantial portions of the Software.
+
+IN ANY EVENT, THE AUTHOR OR COPYRIGHT HOLDER HEREIN RETAINS FULL OWNERSHIP RIGHTS. THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, THEREFORE IF ANY DAMAGE, LOSS, OR OTHERWISE ARISES FROM THE USE OR OTHER DEALINGS IN THE SOFTWARE, THE AUTHOR OR COPYRIGHT HOLDER SHALL NOT BE LIABLE, AS THE USE OF THE SOFTWARE IS NOT COMPELLED AT ALL, SO THE RISK IS YOUR OWN.
