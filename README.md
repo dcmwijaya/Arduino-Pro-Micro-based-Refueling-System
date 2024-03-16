@@ -20,7 +20,7 @@ Coming Soon...
 | Actuators | Submersible pump (x2) |
 | Sensor | SEN-0009: Water Level (x1) |
 | Display | LCD I2C (x1) |
-| Other Components | • Micro USB cable - USB type A (x1)<br>• Jumper cable (1 set)<br>• Breadboard (x1)<br>• Adaptor DC 5V (x1)<br>• 4x4 keypad membrane button |
+| Other Components | • Micro USB cable - USB type A (x1)<br>• Jumper cable (1 set)<br>• Breadboard (x1)<br>• Adaptor DC 5V (x1)<br>• 4x4 keypad membrane button (x1)<br>• Push button 12 x 12 mm (x1) |
 
 <br><br>
 
