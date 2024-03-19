@@ -54,7 +54,7 @@ Coming Soon...
 <th width="420">Pictorial Diagram</th>
 </tr>
 <tr>
-<td><img src="" alt="Block-Diagram"></td>
+<td><img src="https://github.com/devancakra/Arduino-Pro-Micro-based-Refueling-System/assets/54527592/c789e68f-aed3-42ec-9d72-b023df32a6bf" alt="Block-Diagram"></td>
 <td><img src="" alt="Pictorial-Diagram"></td>
 </tr>
 </table>
