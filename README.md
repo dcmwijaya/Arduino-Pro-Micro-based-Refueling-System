@@ -14,7 +14,7 @@ Coming Soon...
 | --- | --- |
 | Development Board | Arduino Pro Micro Leonardo ATMEGA32U4 |
 | Code Editor | Arduino IDE |
-| Driver | USB-Serial CH340 |
+| Driver | CH340 USB Driver |
 | Programming Language | C/C++ |
 | Arduino Library | • LiquidCrystal_I2C<br>• Keypad |
 | Actuators | Submersible pump (x2) |
@@ -28,21 +28,21 @@ Coming Soon...
 1. Arduino IDE
 
    <table><tr><td width="810">
-         
+
    ```
-   https://www.arduino.cc/en/software
+   https://bit.ly/ArduinoIDE_Installer
    ```
 
    </td></tr></table><br>
-   
-2. USB-Serial CH340
+
+2. CH340 USB Driver
 
    <table><tr><td width="810">
-   
+
    ```
-   https://bit.ly/CH340_Driver
+   https://bit.ly/CH340_USB_Driver
    ```
-   
+
    </td></tr></table>
    
 <br><br>
