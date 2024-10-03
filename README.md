@@ -5,7 +5,6 @@
 ![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Arduino-Pro-Micro-based-Refueling-System
-<strong>Solo Project: Arduino Pro Micro-based Refueling System</strong><br><br>
 Coming Soon...
 
 <br><br>
